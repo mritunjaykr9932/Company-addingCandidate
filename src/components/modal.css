@@ -1,0 +1,26 @@
+.body{
+    height: 30vh;
+    padding: 10px 42px;
+}
+.modal{
+    /* width: 25%; */
+    
+    margin: auto;
+}
+.body-text p{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.body-sub-text p{
+    color: #667085;
+}
+.button{
+    background-color:  #206DC5;
+    width: 85%;
+    margin: auto;
+}
+.button:hover{
+    background-color: #206DC5;
+    color: white;
+}
