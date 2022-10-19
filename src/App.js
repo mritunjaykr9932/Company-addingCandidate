@@ -3,10 +3,10 @@ import AddCard from './components/AddCard';
 import Modals from './components/Modal';
 
 function App() {
-  // <AddCard/>
+  // <Modals/>
   return (
     <div className="App">
-      <Modals/>
+    <AddCard/>
     </div>
   );
 }

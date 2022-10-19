@@ -133,11 +133,11 @@ function AddCard() {
             </div>
             <div className="col-sub-heading">
               <p>
-                we support .<span>zip files</span> only
+                we support <span>.zip files</span> only
               </p>
             </div>
             <div className="body-button">
-              <button className="button">
+              <button className="button-3 bg-primary">
                 <p>
                   <svg
                     width="20"
@@ -184,7 +184,7 @@ function AddCard() {
                     />
                   </svg>
                 </p>
-                <p>Add Multiple Candidates</p>
+                <p>Add Single Candidates</p>
               </button>
             </div>
           </Col>

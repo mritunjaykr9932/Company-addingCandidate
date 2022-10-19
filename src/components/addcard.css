@@ -1,72 +1,86 @@
-.header{
+.header {
     margin-top: 4%;
 }
 
-.logo{
+.logo {
     width: 100%;
     /* background-color: blue; */
     display: flex;
     justify-content: center;
 }
-svg{
+
+svg {
     /* background-color: antiquewhite; */
     margin: auto;
+    
 
 }
-.heading{
+
+.heading {
     display: flex;
     justify-content: center;
 }
-.sub-heading{
+
+.sub-heading {
     display: flex;
     justify-content: center;
 }
-.heading h1{
+
+.heading h1 {
     font-weight: 600;
     font-size: 3rem;
 }
-.sub-heading p{
+
+.sub-heading p {
     color: #667085;
     font-size: 1.6rem;
 }
-.body{
+
+.body {
     /* border: 1px solid red; */
     margin-top: 2%;
     padding: 10px;
 }
-.row{
+
+.row {
     /* border: 1px solid green; */
     width: 60%;
     margin: auto;
     padding: 10px;
 }
-.col{
+
+.col {
     /* border: 1px solid black; */
     padding: 40px 20px;
     margin: 5px 5px;
     width: 47%;
     margin: auto;
     box-shadow: 0px 0px 3px rgba(16, 24, 40, 0.1), 0px 0px 6px rgba(16, 24, 40, 0.06);
-border-radius: 12px;
+    border-radius: 12px;
 }
-.col-heading p{
-        font-size: 2rem;
-        font-weight: 600;
-        margin-bottom: 0;
+
+.col-heading p {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0;
 }
-.col-sub-heading p{
+
+.col-sub-heading p {
     color: #667085;
     font-size: 1.2rem;
     margin-bottom: 35px;
 }
-.col-sub-heading span{
+
+.col-sub-heading span {
     font-weight: bold;
 }
-.body-button{
+
+.body-button {
     /* border: 1px solid green; */
     margin-top: 10px;
 }
-.button{
+
+.button-3 {
     display: flex;
     background-color: #206DC5;
     color: white;
@@ -74,12 +88,15 @@ border-radius: 12px;
     padding: 10px 45px;
     justify-content: space-around;
     justify-items: center;
-    border: none;
+    border: 1px solid #D0D5DD;
     outline: none;
-    border-radius:8px;
-    
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+
 }
-.button-2{
+
+.button-2 {
     display: flex;
     background-color: white;
     color: #344054;
@@ -89,16 +106,22 @@ border-radius: 12px;
     justify-items: center;
     border: 1px solid #D0D5DD;
     outline: none;
-    border-radius:8px;
+    border-radius: 8px;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-border-radius: 8px;
+    border-radius: 8px;
 }
-.button p{
+
+.button-3 p {
+    font-size: 1.3rem;
+    margin: auto;
+    
+}
+.button-3 p svg{
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+.button-2 p {
     font-size: 1.3rem;
     margin: auto;
 }
-.button-2 p{
-    font-size: 1.3rem;
-    margin: auto;   
-}
-
